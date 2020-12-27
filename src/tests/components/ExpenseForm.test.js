@@ -33,11 +33,12 @@ test('Should render error for invalid form submission', () => {
 })
 
 test('Should set description on input change', () => {
+    
     const value = 'New description'
     const wrapper = shallow(<ExpenseForm />)
 
     wrapper.find('input').at(0).simulate('change', {target: {value}})
 
     expect(wrapper.state('description')).toBe(value)
-    
+
 })
