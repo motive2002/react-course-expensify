@@ -14,7 +14,7 @@ exports[`Should render a list item 1`] = `
     195
   </p>
   <p>
-    0
+    Dec 31st, 1969
   </p>
 </div>
 `;
